@@ -22,5 +22,5 @@ jobs:
       -
          name: Build, tag, and push image to Yandex Cloud Container Registry
          run: |
-          docker build cr.yandex/crpetljh5k6vou7nipae/ubuntu:latest .
+          docker build -t cr.yandex/crpetljh5k6vou7nipae/ubuntu:latest .
           docker push cr.yandex/crpetljh5k6vou7nipae/ubuntu:latest
