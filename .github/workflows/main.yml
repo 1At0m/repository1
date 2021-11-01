@@ -18,9 +18,9 @@ jobs:
         with:
           registry: cr.yandex
           username: oauth
-          password: AQAAAABV61XHAATuwWu_Fec5pkT6raVL_XeUdvw
+          password: AQAAAAAXA5U_AATuwTOqgwfDL0DBs8IIi7E8LsE
       -
          name: Build, tag, and push image to Yandex Cloud Container Registry
          run: |
-          docker build -t cr.yandex/crpetljh5k6vou7nipae/ubuntu:latest .
+          docker build -t cr.yandex/crpetljh5k6vou7nipae/ubuntu:latest
           docker push cr.yandex/crpetljh5k6vou7nipae/ubuntu:latest
