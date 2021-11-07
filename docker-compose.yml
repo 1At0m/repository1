@@ -1,4 +1,10 @@
+version: '2'
+services:
+  hello_world:
+    image: ubuntu
+    command: [/bin/echo, 'Hello world']
+    
 version: "3"
 services:
  programm:
-  image: cr.yandex/crp0cfok2hejcg42vvvq/test:latest
+  image: cr.yandex/crpetljh5k6vou7nipae/ubuntu:latest
