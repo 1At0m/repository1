@@ -3,8 +3,4 @@ services:
   hello_world:
     image: ubuntu
     command: [/bin/echo, 'Hello world']
-    
-version: "3"
-services:
- programm:
-  image: cr.yandex/crpetljh5k6vou7nipae/ubuntu:latest
+
