@@ -1,0 +1,4 @@
+version: "3"
+services:
+ programm:
+  image: cr.yandex/crp0cfok2hejcg42vvvq/test:latest
