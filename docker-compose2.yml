@@ -1,0 +1,4 @@
+version: "3"
+services:
+ moe:
+  image: cr.yandex/crpetljh5k6vou7nipae/ubuntu:latest
